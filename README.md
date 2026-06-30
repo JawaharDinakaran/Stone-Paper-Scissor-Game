@@ -3,7 +3,7 @@
 A Rock Paper Scissor game built using HTML,CSS,Javascript.
 
 ## Feature
-Play against the computer | OFfline two - player mode (bulit in simple way) | Automatic winner detection | Interactive user interface | Instant game result | choice bestes (Best for three ,etc) | Round by round score tracking | Dark mode
+Play against the computer | Offline two - player mode (bulit in simple way) | Automatic winner detection | Interactive user interface | Instant game result | choice bestes (Best for three ,etc) | Round by round score tracking | Dark mode
 
 ## Technologies Used
 HTML | CSS | Javascript
