@@ -1,0 +1,130 @@
+.images{
+    flex-direction: row;
+    display: flex;
+    column-gap: 20px;
+    transition: 0.15s;
+    justify-content: center;
+    margin-top: 40px;
+}
+.images img{
+    width: 90px;
+}
+.images img:hover{
+    opacity: 0.8;
+}
+.images div{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+h1{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-top: 150px;
+}
+.images p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+    padding-left: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+.bestes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 8px;
+}
+.bestes button{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.15s;
+}
+.bestes button:hover{
+    opacity: 0.7;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 8px;
+}
+.restart{
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    border: none;
+    background-color: green;
+    border-radius: 4px;
+    transition: 0.15s;
+}
+.restart:hover{
+    opacity: 0.7;
+}
+.stats p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 3px;
+}
+.choiceerror{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.forerror{
+    pointer-events: none;
+}
+body{
+    position: relative;
+}
+.theme{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.15s;
+}
+.theme:hover{
+    opacity: 0.8;
+}
+.dark-theme,.dark-theme h1{
+    background-color: black;
+    color: white;
+
+}
+.dark-theme p{
+    color: white;
+}
+.dark-theme .bestes button{
+    background-color: white;
+    color: black;
+}
+.dark-theme .images p{
+    color: white;
+    background-color: black;
+}
+.dark-theme .theme{
+    background-color: white;
+    color: black;
+}
