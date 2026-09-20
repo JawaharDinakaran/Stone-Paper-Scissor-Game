@@ -126,13 +126,13 @@ function choicetrue(){
 /*to close eye alert */
 function closeeye1(){
     let eye1 = document.querySelector(".closeeye1");
-    eye1.textContent = "Player1 please close your eye.";
+    eye1.textContent = "Player1 your chance.";
     let eye2 = document.querySelector(".closeeye2");
     eye2.textContent = "";
 }
 function closeeye2(){
     let eye2 = document.querySelector(".closeeye2");
-    eye2.textContent = "Player2 please close your eye.";
+    eye2.textContent = "Player2 your chance.";
     let eye1 = document.querySelector(".closeeye1");
     eye1.textContent = "";
 }
